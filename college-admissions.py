@@ -41,11 +41,12 @@ james_classes = {'Scare 101', 'Scare Academy', 'Forest Scare'}
 
 
 #### PART 2 ####
-# Now the Monsters University wants to process all of the students locations. Edit each student's city from their own list (for ex. Mikes's list is mike) & save them to their own variable (for example: Mikes's city can be in the variable mike_city). 
-# To process all of the student's locations, we want to for example, print 'Monstropolis' with 'M' and being capitalized for Mike's location. Essentially for the city, we want the first letter capitalized and the rest would be lowercase.  
+# Now the Monsters University wants to process all of the student's locations. Edit each student's city from their own list (for ex. Mikes's list is mike) & save them to their own variable (for example: Mikes's city can be in the variable mike_city). 
+# To process all of the student's locations, we want to for example, print 'Monstropolis' with capital 'M' for Mike's location. Essentially for the city, we want the first letter capitalized and the rest would be lowercase.  
 # Note we can get the upper case version of a string using the function string.upper() and lower case using string.lower(). See the example below:
 
-''' Uncomment this code (the 3-chained quotations) & run it!
+''' 
+Uncomment this code (the 3-chained quotations) & run it!
 mike_city = mike[3]
 mike_city = str(mike_city[0].upper() + mike_city[1:].lower())    
 # capitalized should be 'M' & lower_case should be 'onstropolis'
@@ -73,14 +74,15 @@ print('reformatted : ' + mike_city)
 
 
 #### PART 3 ####
-# The University is complaining that the system that they used to retrieve information was broken and even the students' names are unformatted. They want to clean the data, and they are asking for your help. Reformat each list to have the first letter in the name & city capitalized (everything else lowercase), both letters in the state to be upper case.
+# The University is complaining that the system they used to retrieve information was broken and even the students' names are unformatted. They want to clean the data, and they are asking for your help. Reformat each list to have the first letter in the name & city capitalized (everything else lowercase), both letters in the state to be upper case.
 # You can use your previous city & state variables to make this part easier!
 # Ex: 
 # Before modifying list mike = ['miKe', 'wAzOwSki', 3.4, 'MoNsTroPolIs', 'scareology']
 # After modifying list student1 = ['Mike', 'Wazowski', 3.4, 'Monstropolis', 'scareology']
 
 ##### YOUR CODE HERE #####
-''' Example for Mike is done for you :)
+''' 
+Example for Mike is done for you :)
 mike_fname = mike[0] # miKe
 mike_lname = mike[1] # miKe
 mike_fname = mike_fname[0].upper() + mike_fname[1:].lower() # Mike
@@ -88,7 +90,7 @@ mike_lname = mike_lname[0].upper() + mike_lname[1:].lower() # Mike
 mike[0] = mike_fname # Set new variable in list at that index 0
 mike[1] = mike_lname # Set new variable in list at that position 1
 mike[3] = mike_city # Set new variable in list at that position 2
-print(mike) # Prints the originally list modified: ['Mike', 'Wazowski', 3.4, 'Monstropolis', 'scareology']
+print(mike) # Prints the original list modified: ['Mike', 'Wazowski', 3.4, 'Monstropolis', 'scareology']
 '''
 
 
@@ -115,8 +117,8 @@ print(mike) # Prints the originally list modified: ['Mike', 'Wazowski', 3.4, 'Mo
 # 2) Remove 'Creative Writing' from Randalls's classes & add 'Scare Academy' to Randalls's classes
 # 3) Remove 'Scare 101' from Jame's classes & add 'Forest Scare'
 
-# For 1)-3), predict the length of each set after making these changes. Then, print out these sets along with their lengths with (for Mike's example): print(mike_classes, len(mike_classes))
-# Was the elements in the set & their lengths what you expected to be printed after modifying them? Explain why your elements & length was printed this way. How is a set different from a list? (Write your answer as a comment below)
+# For 1-3, predict the length of each set after making these changes. Then, print out these sets along with their lengths with (for Mike's example): print(mike_classes, len(mike_classes))
+# Were the elements in the set & their lengths what you expected to be printed after modifying them? Explain why your elements & lengths were printed this way. How is a set different from a list? (Write your answer as a comment below)
 
 ##### YOUR CODE HERE #####
 
@@ -149,7 +151,8 @@ print(mike) # Prints the originally list modified: ['Mike', 'Wazowski', 3.4, 'Mo
 
 ##### YOUR CODE HERE #####
 
-''' Example for Mike is done for you :)
+''' 
+Example for Mike is done for you :)
 mike_major = mike[4]
 mike_gpa = mike[2]
 if (mike_major != 'laughter science' and mike_gpa >= 3.0):
