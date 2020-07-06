@@ -9,7 +9,7 @@
 mike = ['miKe', 'wAzOwSki', 3.4, 'MoNsTroPolIs', 'scareology']
 print(mike)
 randall = ['RaNdAlL', 'BoGgs', 3.2, 'MoNStroVille', 'laughter science']
-james = ['JaMeS','sUlLiVan', 2.9, 'bOo JoSe', 'nC', 'scareology']
+james = ['JaMeS','sUlLiVan', 2.9, 'bOo JoSe', 'scareology']
 
 mike_classes = {'AP Scare', 'Bed Scare', 'English'}
 randall_classes = {'Closet Scare', 'Scare Academy', 'Creative Writing'}
