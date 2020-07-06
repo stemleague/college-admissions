@@ -86,7 +86,7 @@ Example for Mike is done for you :)
 mike_fname = mike[0] # miKe
 mike_lname = mike[1] # miKe
 mike_fname = mike_fname[0].upper() + mike_fname[1:].lower() # Mike
-mike_lname = mike_lname[0].upper() + mike_lname[1:].lower() # Mike
+mike_lname = mike_lname[0].upper() + mike_lname[1:].lower() # Wazowski
 mike[0] = mike_fname # Set new variable in list at that index 0
 mike[1] = mike_lname # Set new variable in list at that position 1
 mike[3] = mike_city # Set new variable in list at that position 2
