@@ -144,8 +144,10 @@ print(mike) # Prints the original list modified: ['Mike', 'Wazowski', 3.4, 'Mons
 #
 # OR 
 #
-# Rejected: StudentName from City is interested in studying MajorName, with a GPA of lower than or equal to a 2.8, so he does not meet the qualifications.
-
+# Rejected: student_name from student_city, is interested in studyingstudent_major with a GPA of lower than or equal to a 2.8, so he does not meet the qualifications.
+#
+# For example, if we looked at the list mike, we would print:
+# Accepted: Mike Wazowski from Monstropolis, is interested in studying scareology with a GPA of higher than or equal to a 2.8, so he is admitted to Monsters University.
 
 ##### YOUR CODE HERE #####
 
@@ -153,8 +155,8 @@ print(mike) # Prints the original list modified: ['Mike', 'Wazowski', 3.4, 'Mons
 Example for Mike is done for you :)
 mike_major = mike[4]
 mike_gpa = mike[2]
-if (mike_major != 'laughter science' and mike_gpa >= 3.0):
-  print("Accepted: " + mike_fname + " " + mike_lname + " from " + mike_city + "," + " is interested in studying " + mike_major + " with a GPA of higher than or equal to a 2.8, so he is admitted to Monsters University.")
+if (mike_major != 'laughter science' and mike_gpa >= 2.8):
+  print("Accepted: " + mike_fname + " " + mike_lname + " from " + mike_city + ", " + " is interested in studying " + mike_major + " with a GPA of higher than or equal to a 2.8, so he is admitted to Monsters University.")
 else: 
-  print("Rejected: " + mike_fname + " " + mike_lname + " from " + mike_city + "," + " is interested in studying" + mike_major + " with a GPA of lower than or equal to a 3.0, so he does not meet the qualifications.")
+  print("Rejected: " + mike_fname + " " + mike_lname + " from " + mike_city + ", " + "is interested in studying" + mike_major + " with a GPA of lower than or equal to a 2.8, so he does not meet the qualifications.")
 '''
